@@ -80,55 +80,31 @@ QuickMail-Assistant/
 ```
 
 ---
-
-## 🔗 Backend API
-
-**Live Endpoint:**
-
+**Request :**
 ```
-POST https://quick-email-ai-production.up.railway.app/api/email/generate
-```
-
-**Request Body:**
-```json
 {
-  "emailContent": "Original email or user instruction",
-  "tone": "professional"
+  "emailContent": "write a mail for my boos 2 day leave",
+  "tone": professional
 }
 ```
 
 **Response:**
 ```json
-{
-  "text": "Generated email reply...",
-  "provider": "Gemini",
-  "promptTokens": 120,
-  "completionTokens": 85,
+  "text": email - email replay .................,
+  "promptTokens give by extersion ": 120,
+  "prompt Tokens use by mail generate ": 15,
   "totalTokens": 205
-}
+
 ```
 
 ---
 
 ## ⚙️ Installation
 
-### Option 1 — Load Unpacked (Developer Mode)
-
-```bash
-1. Open Chrome → go to chrome://extensions
-2. Enable "Developer mode" (top right toggle)
-3. Click "Load unpacked"
-4. Select the QuickMail-Assistant project folder
-5. Open Gmail → AI Reply button will appear!
-```
-
-### Option 2 — Use With Deployed Backend
+###  — Use With Deployed Backend
 
 The extension is pre-configured with the live backend:
 
-```
-https://quick-email-ai-production.up.railway.app/api/email/generate
-```
 
 No setup needed — just load the extension and open Gmail.
 
