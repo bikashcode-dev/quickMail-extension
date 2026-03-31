@@ -1,4 +1,4 @@
-const API_URL = "https://quick-email-ai-production.up.railway.app/api/email/generate";
+const API_URL = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 const REQUEST_TIMEOUT_MS = 20000;
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
