@@ -13,7 +13,7 @@
   "permissions": [],
 
   "host_permissions": [
-    "https://quick-email-ai-production.up.railway.app/*",
+    "***********************************",
     "*://mail.google.com/*"
   ],
 
