@@ -1,4 +1,4 @@
-const API_URL = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+const API_URL = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyyyyyyyyyyyyyyyyy";
 const REQUEST_TIMEOUT_MS = 20000;
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
@@ -50,7 +50,7 @@ async function generateAiReply(payload) {
       throw new Error("Request timed out. Check backend status.");
     }
     if (error instanceof TypeError) {
-      throw new Error("Backend response browser ne block kar di. CORS ya backend availability check karo.");
+      throw new Error("TO MAN REQUEST PLEASE WSIY IF YOU MINUTE...BAPIR");
     }
     throw error;
   } finally {
