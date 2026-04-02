@@ -167,3 +167,4 @@ No setup needed — just load the extension and open Gmail.
 ⭐ *"Build real projects, not just code."*
 
 </div>
+<img width="563" height="460" alt="image" src="https://github.com/user-attachments/assets/b2425b75-c8f8-4187-82da-62337f3c5fb2" />
